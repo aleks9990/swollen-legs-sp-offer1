@@ -10159,8 +10159,10 @@ body.dom-pending * {
     padding-bottom: 0 !important;
   }
 
-  #cc-id-nNVEQDLxXqe3 {
-    display: none !important;
+  @media only screen and (min-width: 610px) and (max-width: 778px) {
+    #cc-id-nNVEQDLxXqe3 {
+      display: none !important;
+    }
   }
 
   #nv-amazon-top-cta {
@@ -12871,8 +12873,6 @@ body.dom-pending * {
         // Kill duplicate Two Futures tablet/mobile copy
         var twoFuturesTablet = document.getElementById('cc-id-MknKbr6fKlE6');
         if (twoFuturesTablet) twoFuturesTablet.remove();
-        var twoFuturesPhone = document.getElementById('cc-id-nNVEQDLxXqe3');
-        if (twoFuturesPhone) twoFuturesPhone.remove();
 
         var condSection = document.createElement('div');
         condSection.id = 'nv-conditions';
